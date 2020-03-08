@@ -1,7 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
+  "name": "@esm-bundle/crocks",
   "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
+  "description": "A collection of well known Algebraic Datatypes for your utter enjoyment.",
   "main": "index.js",
   "module": "esm/index.js",
   "type": "module",
@@ -11,6 +11,7 @@
     "test:browser:debug": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "build": "rollup -c",
+    "postbuild": "sh postbuild.sh",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",
     "prepublishOnly": "yarn build"
@@ -26,19 +27,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/crocks.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/crocks/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/crocks#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
-    "autopublish-template": "20.0.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "chai": "4.2.0",
     "concurrently": "5.1.0",
+    "crocks": "^0.12.4",
     "husky": "4.2.3",
     "jest-cli": "25.1.0",
     "karma": "4.4.1",
