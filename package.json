@@ -37,10 +37,10 @@
   "homepage": "https://github.com/esm-bundle/crocks#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
-    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-node-resolve": "7.1.1",
     "chai": "4.2.0",
     "concurrently": "5.1.0",
-    "crocks": "^0.12.4",
+    "crocks": "0.12.4",
     "husky": "4.2.3",
     "jest-cli": "25.1.0",
     "karma": "4.4.1",
