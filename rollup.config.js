@@ -1,16 +1,18 @@
+import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import { terser } from "rollup-plugin-terser";
 
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
   return {
-    input: require.resolve("autopublish-template"),
+    preserveModules: true,
+    input: require.resolve("crocks"),
     output: {
-      file: `${dir}/index.js`,
-      sourcemap: true,
-      format
+      dir,
+      format,
+      sourcemap: true
     },
-    plugins: [commonjs(), terser()]
+    plugins: [resolve(), commonjs(), terser()]
   };
 }
 
