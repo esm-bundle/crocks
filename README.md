@@ -12,22 +12,14 @@ Upstream repo at https://github.com/evilSoft/crocks.
 
 ## JS Delivr
 
-- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/esm/index.js
-- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/esm/helpers/compose.js
-- etc.
-
-- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/system/index.js
-- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/system/helpers/compose.js
+- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/index.js
+- https://cdn.jsdelivr.net/npm/@esm-bundle/crocks/helpers/compose.js
 - etc.
 
 ## Unpkg
 
-- https://unpkg.com/@esm-bundle/crocks/esm/index.js
-- https://unpkg.com/@esm-bundle/crocks/esm/helpers/compose.js
-- etc.
-
-- https://unpkg.com/@esm-bundle/crocks/system/index.js
-- https://unpkg.com/@esm-bundle/crocks/system/helpers/compose.js
+- https://unpkg.com/@esm-bundle/crocks/index.js
+- https://unpkg.com/@esm-bundle/crocks/helpers/compose.js
 - etc.
 
 ## Npm
